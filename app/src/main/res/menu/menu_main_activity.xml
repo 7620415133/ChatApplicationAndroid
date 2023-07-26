@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/menu_search_devices"
+    android:icon="@drawable/menu_search_device"
+    app:showAsAction="always"
+    android:title="@string/str_menu_search_devices"
+    />
+    <item
+        android:id="@+id/menu_enable_bluetooth"
+        android:icon="@drawable/menu_enable_device"
+        app:showAsAction="always"
+        android:title="@string/str_menu_bluetooth_on"
+        />
+    <item
+        app:showAsAction="always"
+        android:title="Device Scan"
+        android:icon="@drawable/device_scan"
+        android:id="@+id/menu_scan_device"/>
+</menu>
